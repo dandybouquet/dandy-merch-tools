@@ -1,0 +1,27 @@
+# Example order config file
+# Used with create_order.py
+
+settings:
+  material: White Vinyl
+  laminate: Matte
+  size_inches: 3.0
+  resale_price: 4.0
+  design_dir: designs
+  prices_config: prices.yaml
+
+order:
+  design1:
+    material: White Vinyl
+    quantity: 50
+  design2:
+    quantity: 20
+    size_inches: 6.5
+    resale_price: 10.0
+    material: Holo Vinyl
+    laminate: Glossy
+  design3:
+    material: Clear Vinyl
+    quantity: 40
+  design4:
+    quantity: 5
+  

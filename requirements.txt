@@ -1,0 +1,7 @@
+scikit-image
+scikit-fmm
+matplotlib
+numpy
+imageio
+PyQt5
+pyyaml

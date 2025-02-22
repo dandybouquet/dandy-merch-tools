@@ -1,0 +1,29 @@
+# Example designs config file
+# Used with process_stickers.py
+
+# 1/8" = 0.125
+# 1/16" = 0.0625
+# 1/32" = 0.03125
+
+# Default settings for all designs
+settings:
+  thickness: 0.0625
+  bleed_thickness: 0.0625
+  min_corner_radius: 0.03125
+  alpha_threshold: 100
+  design_dir: .
+  sizes: [ 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5 ]
+
+# List of designs and their file widths in inches
+designs:
+  design1:
+    art: design1.png
+    mask: design1_mask.png
+    width: 2.34
+    thickness: 0.125
+  design2:
+    art: design2_artwork.png
+    width: 2.3194
+  design3:
+    mask: special_mask.png
+    width: 2.5

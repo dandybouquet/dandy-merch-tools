@@ -1,0 +1,13 @@
+# Example prices config file
+# Used with create_order.py
+
+sizes:
+  - { size: 1.0, price: 0.22 }
+  - { size: 1.5, price: 0.28 }
+  - { size: 2.0, price: 0.34 }
+  - { size: 2.5, price: 0.40 }
+  - { size: 3.0, price: 0.55 }
+  - { size: 3.5, price: 0.72 }
+  - { size: 4.0, price: 0.94 }
+  - { size: 4.5, price: 1.21 }
+  - { size: 6.0, price: 2.40 }
